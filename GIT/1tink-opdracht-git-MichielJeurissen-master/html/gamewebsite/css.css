@@ -1,0 +1,59 @@
+html {
+    background-color: skyblue;
+}
+
+header {
+    color: azure;
+    background-color: grey;
+    padding: 10px;
+}
+
+article {
+    border: 5px solid yellow;
+    border-radius: 6px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    margin: 10px;
+    color: azure;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+footer {
+    background-color: grey;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 98.2%;
+}
+
+table {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+thead {
+    background-color: darkslategray;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+tbody {
+    background-color: grey;
+}
